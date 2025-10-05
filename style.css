@@ -1,0 +1,177 @@
+
+body {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    margin: 0; 
+    background: rgb(231, 227, 221);
+}
+.all_site {
+    
+    display: flex;
+    flex-direction: column; /* Вирівнює вміст всередині вертикально */
+    align-items: center; /* Центрує вміст всередині по горизонталі */
+    text-align: center; /* Центрує текст */
+}
+
+.quiz1 {
+    background-color: transparent; 
+    align-items: center;
+    text-align: center;
+    
+}
+
+.quiz2 {
+    background-color: transparent; 
+    text-align: center;
+}
+.quiz3 {
+    background-color: transparent; 
+    text-align: center;
+}
+
+.answer-buttons button {
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(195, 193, 197);
+}
+
+
+
+.news_header_block {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.title_container {
+    text-align: center;
+    border-bottom: 2px solid #333;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.namee {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    font-size: 3.5em;
+    color: #333;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0.8);
+}
+
+.text_under_header {
+    text-align: left;
+    margin-left: 63px;
+    font-size: 10px;
+}
+
+.name {
+    width: 100%;
+    height: 500px;
+    background-image: url('../images/IMAGE\ 2025-10-03\ 11:15:20.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    color: lightyellow;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0.8);
+}
+
+.name>p {
+    font-size: 10px;
+    margin-top: 15px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0.8);
+}
+
+.first_text {
+    width: 98%;
+    margin: 10px auto;
+    padding: 10px;
+    line-height: 1.6;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.first_text>img {
+    float: right;
+    width: 245px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.first_text>.first_h {
+    border-top: 1px solid #333;
+    text-align: center;
+    margin: 10px;
+}
+
+.first_text::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.second_h {
+    margin: 50px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+}
+
+.second_text {
+    
+    background-color: rgba(255, 255, 255, 0.924);
+    padding: 10px;
+    
+    line-height: 1.6;
+    font-size: 1.1em;
+    color: #333;
+}
+.second_text::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.second_text>img {
+    float: right;
+    width: 250px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.para {
+    border-top: 1px solid #333;
+    margin: 45px;
+    margin-top: 100px;
+
+}
+
+.third_text {
+    border-top: 1px solid #333;
+    margin: 10px;
+    border-bottom: 1px solid #333;
+    
+    line-height: 1.6;
+    font-size: 1.1em;
+    color: #333;
+}
+.third_text>img {
+    float: left;
+    width: 250px;
+    height: auto;
+    margin-right: 10px;
+    margin-top: 27px;
+}
+
+.ending {
+    background-color: whitesmoke;
+    text-align: left;
+    font-size: 8px;
+}
